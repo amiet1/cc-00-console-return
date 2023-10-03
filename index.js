@@ -1,7 +1,9 @@
 //1
 const morningLogged = ()=>{
-  
+    console.log('Good Morning');
 }
+morningLogged();
+
 //What is printed to the console?
 
 
