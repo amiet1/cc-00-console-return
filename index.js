@@ -13,21 +13,27 @@ const iLoveCode = ()=>{
 }
 iLoveCode();
 //What is printed to the console?
+//I love code challenges
 
 
 //3
 const loggingTwice = ()=>{
-  
+  console.log('one');
+  console.log('two');
 }
-//What is printed to the console?
+loggingTwice();
+//What is printed to the console? one two 
 
 
 //4
 const noStep = ()=>{
-  
+    console.log('one');
+    return "two"
+    console.log('step');
 }
+noStep();
 //What is printed to the console?
-
+//one two then step
 
 
 
