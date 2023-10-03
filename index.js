@@ -33,7 +33,20 @@ const noStep = ()=>{
 }
 noStep();
 //What is printed to the console?
-//one two then step
+//one 
 
+const isPrime = (int) =>{
+    if (int <= 1){
+    return false
+    } else if  (int === 2|| int === 3 || int === 5) {
+        return true 
+    } else if (int % 2 || int % 3 || int % 5) {
+        return false
+    }
+}
+console.log(isPrime(17));
+console.log(isPrime(5));
+console.log(isPrime(22));
+console.log(isPrime(1));
 
 
